@@ -1,0 +1,86 @@
+/* smartphone*/
+            @media only screen and (min-device-width: 480px){
+               html {
+                min-width: 480px;
+            }
+            
+            }      
+            
+            html {
+                min-width: 1024px;
+            }
+
+            body {
+                transition: background .5s,
+                            opacity .5s;
+                background-color:	#000000;
+            }
+
+            .game-over {
+                opacity: .5;
+                background: #eee;
+                pointer-events: none;
+            }
+
+            .page {
+                text-align: center;
+                padding: 0 0 20px;
+            }
+                .page__title {
+                    color:	#FFFFFF;
+
+                }
+
+                .page__note {
+                    color:	#FFFFFF;
+
+                }
+
+                .page__game {
+                    margin: 30px auto 0;
+                }
+
+            .field {
+                display: flex;
+                width: 1101px;
+                border: 1px;
+                
+            }
+                .field__half {
+                    width: 550px;
+                    height: 550px;
+                    position: relative;
+                    
+                }
+
+                .field__half:first-child {
+                    border-right: 1px;
+                    border-style: solid;
+                    border-color:	#FFFFFF;
+                    
+                   
+                }
+
+            .this_div {
+                width: 100px;
+                height: 100px;
+                vertical-align: top;
+                position: absolute;
+                cursor: pointer;
+                border-radius: 50%;
+                transition: background .1s;
+                
+            }
+
+            .this_div:hover {
+                background: red;
+            }
+            
+            
+            
+            
+            img	 	{ 	position:absolute;
+						width: 500px;
+						height: 500px;
+					}
+
